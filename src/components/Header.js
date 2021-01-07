@@ -23,7 +23,7 @@ export default function Header() {
       <div className="flex flex-col items-center justify-center md:flex-row-reverse md:w-10/12 md:justify-between">
         <div className="w-full md:w-2/5 ">
           <LazyLoadImage
-            src={require ('../components/assets/edit2.png')}
+            src={content.header.img}
             alt="profile"
             className={`w-full mx-auto`}
             effect="blur"
