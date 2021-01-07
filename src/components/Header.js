@@ -26,7 +26,7 @@ export default function Header() {
             alt="profile"
             className={`w-full mx-auto`}
             effect="blur"
-            placeholderSrc={content.header.imgPlaceholder}
+            // placeholderSrc={content.header.imgPlaceholder}
           />
         </div>
 
