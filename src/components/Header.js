@@ -24,6 +24,7 @@ export default function Header() {
         <div className="w-full md:w-2/5 ">
           <LazyLoadImage
             src={content.header.img}
+            //src={edit2}
             alt="profile"
             className={`w-full mx-auto`}
             effect="blur"
