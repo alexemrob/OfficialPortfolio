@@ -19,10 +19,9 @@ export default function Work() {
       <p className="text-gray-600 text-2xl font-dosis mb-10">I have done</p>
       <div className="flex flex-col md:flex-row justify-between items-center w-11/12 ">
         <LazyLoadImage
-          effect="blur"
-          placeholderSrc={content.work.imgPlaceholder}
+          placeholderSrc={content.work.img}
           src={content.work.img}
-          alt="phone prototype"
+          alt="cc-pic"
           className="m-10 transtion duration-2000 ease-in-out z-10  md:w-3/5 w-4/5"
         />
         <div
